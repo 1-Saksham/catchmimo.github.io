@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Catch me!</title>
+    <style>
+        button {
+            padding: 10px 30px;
+            margin: 50px;
+            transition: transform 0.9s ease;
+        }
+        #no:hover {
+            transform: translate(20000px, 20000px); 
+            cursor: not-allowed;
+        }
+        #no:active{
+            
+            transform: translate(150px, 200px);
+        }
+        #yes:active{
+            background-color: rgb(41, 17, 96);
+            cursor: progress;
+        }
+        #yes:hover{
+            color: rgb(10, 0, 43);
+            cursor: pointer;
+        }
+        h1{
+            font-family: 'Dancing Script', cursive;
+            margin-left: 40px;
+        }
+        body{
+            padding: 20px 400px 600px 450px;
+            background-color: rgb(22, 9, 52);
+        }
+        img{
+            border: solid 6px rgb(4, 2, 40);
+            border-radius: 20%;
+            height: 400px;
+            width: 400px;
+            margin-left: 110px;
+        }
+        div{
+            margin: 0 0 0 130px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1 style="color: azure;">Do you want to friend me in mimo?</h1>
+    <div>
+        <a href="https://getmimo.com/invite/kz7rhy" target="_blank">
+            <button id="yes">YES</button>
+        </a>
+        <button id="no">NO</button>
+    </div>
+    <br/>
+    <img src ="profile.jpg" alt="Mimo profile">
+</body>
+</html>
